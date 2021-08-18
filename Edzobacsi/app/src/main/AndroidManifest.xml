@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Main">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EdzestervSeged"
+        android:screenOrientation="portrait" >
+
+        <activity android:name="SelectionActivities.ToolsForPlaces"></activity>
+        <activity android:name="SelectionActivities.ExerciseForCategory" />
+        <activity android:name="SelectionActivities.ExercisesForTools" />
+        <activity
+            android:name="com.example.Main.UserDetails"
+            android:parentActivityName="com.example.Main.MainActivity" />
+        <activity
+            android:name="InsertActivities.InsertPlanPhaseThree"
+            android:parentActivityName="Configurations.PlansConfigure" />
+        <activity
+            android:name="InsertActivities.InsertPlanPhaseTwo"
+            android:parentActivityName="InsertActivities.InsertPlanPhaseOne" />
+        <activity
+            android:name="UpdateActivities.UpdateTool"
+            android:parentActivityName="Configurations.ToolsConfigure" />
+        <activity
+            android:name="UpdateActivities.UpdateExercise"
+            android:parentActivityName="Configurations.ExerciseConfigure" />
+        <activity
+            android:name="Configurations.CategoryConfigure"
+            android:parentActivityName="com.example.Main.MainActivity" />
+        <activity
+            android:name="InsertActivities.InsertExercise"
+            android:parentActivityName="Configurations.ExerciseConfigure" />
+        <activity
+            android:name="InsertActivities.InsertTools"
+            android:parentActivityName="Configurations.ToolsConfigure" />
+        <activity
+            android:name="InsertActivities.InsertPlace"
+            android:parentActivityName="Configurations.PlacesConfigure" />
+        <activity
+            android:name="UpdateActivities.UpdateCategory"
+            android:parentActivityName="Configurations.CategoryConfigure" />
+        <activity
+            android:name="InsertActivities.InsertCategory"
+            android:parentActivityName="Configurations.CategoryConfigure" />
+        <activity
+            android:name="InsertActivities.InsertPlanPhaseOne"
+            android:parentActivityName="Configurations.PlansConfigure" />
+        <activity
+            android:name="com.example.Main.PlanDetails"
+            android:parentActivityName="com.example.Main.MainActivity" />
+        <activity
+            android:name="UpdateActivities.UpdatePlace"
+            android:label="Helyszín"
+            android:parentActivityName="Configurations.PlacesConfigure" />
+        <activity
+            android:name="UpdateActivities.UpdatePlan"
+            android:label="Terv"
+            android:parentActivityName="Configurations.PlansConfigure" />
+        <activity
+            android:name="Configurations.ToolsConfigure"
+            android:label="Eszköz konfiguráció"
+            android:parentActivityName="com.example.Main.MainActivity" />
+        <activity
+            android:name="Configurations.ExerciseConfigure"
+            android:label="Gyakorlat konfiguráció"
+            android:parentActivityName="com.example.Main.MainActivity" />
+        <activity
+            android:name="Configurations.PlacesConfigure"
+            android:label="Helyszín konfiguráció"
+            android:parentActivityName="com.example.Main.MainActivity" />
+        <activity
+            android:name="Configurations.PlansConfigure"
+            android:label="Terv Konfiguráció"
+            android:parentActivityName="com.example.Main.MainActivity" />
+        <activity android:name="com.example.Main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

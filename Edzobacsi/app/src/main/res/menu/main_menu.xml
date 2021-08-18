@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_plan"
+            android:title="Tervek"/>
+
+        <item
+            android:id="@+id/nav_places"
+            android:title="Helyszínek"/>
+
+        <item
+            android:id="@+id/nav_category"
+            android:title="Kategóriák"/>
+
+        <item
+            android:id="@+id/nav_tools"
+            android:title="Eszközök"/>
+
+        <item
+            android:id="@+id/nav_excercise"
+            android:title="Gyakorlatok"/>
+    </group>
+
+    <group>
+        <item
+            android:title="Felhasználó">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_options"
+                    android:title="Admin"/>
+
+                <item
+                    android:id="@+id/nav_details"
+                    android:title="Adatok"/>
+            </menu>
+
+        </item>
+
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="InsertActivities.InsertCategory"
+    android:background="@drawable/my_background">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_insert_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_toolbar_color"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Kategória felvitel" />
+
+    <EditText
+        android:id="@+id/category_name_textbox_insert"
+        android:layout_width="335dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="36dp"
+        android:maxLength="15"
+        android:ems="10"
+        android:hint="@string/give_category_name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_insert_category"
+        app:layout_constraintVertical_bias="0.047"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/place_spinner_category_insert"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="24dp"
+        android:background="@android:drawable/editbox_background"
+        android:drawablePadding="16dp"
+        android:onClick="searchExercisesInCategoryInsert"
+        android:hint="@string/select_exercises_category"
+        android:padding="12dp"
+        android:shadowColor="@color/black"
+        android:textColor="#000"
+        android:textSize="15sp"
+        app:drawableEndCompat="@android:drawable/arrow_down_float"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/category_name_textbox_insert" />
+
+    <TextView
+        android:id="@+id/chosen_exercises_category_insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/selected_exercises"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/place_spinner_category_insert" />
+
+    <ListView
+        android:id="@+id/tools_listview_cinsert"
+        android:layout_width="339dp"
+        android:layout_height="447dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="31dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/place_spinner_category_insert" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/category_insert_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:clickable="true"
+        android:contentDescription="@string/save_btn"
+        android:focusable="true"
+        android:onClick="doInsertCategory"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/save_icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

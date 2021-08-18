@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Edzőbácsi</string>
+    <string name="res_open">Open</string>
+    <string name="res_close">Close</string>
+
+    <!-- Fejléc -->
+    <string name="header_title">Edzőbácsi</string>
+    <string name="version_number">1.0.0</string>
+    <string name="header_logo">Logó</string>
+
+    <!--Több helyen felhasználható-->
+    <string name="save_btn">Mentés</string>
+    <string name="move_forward">Tovább</string>
+    <string name="add">Hozzáad</string>
+
+    <!--Gyakorlatok-->
+    <string name="insert_exercise_title">Gyakorlat felvitel</string>
+    <string name="update_exercise_title">Gyakorlat módosítás</string>
+    <string name="exercises_configure_title">Gyakorlatok keresése</string>
+
+    <string name="give_exercise_name">Add meg a gyakorlat nevét*</string>
+    <string name="give_exercise_level">Válassz nehézséget*</string>
+    <string name="give_exercise_type">Válassz gyakorlattípust*</string>
+    <string name="give_exercise_category">Válassz kategóriákat</string>
+    <string name="give_exercise_muscles">Válassz izomcsoportokat</string>
+    <string name="give_exercise_tools">Válassz eszközöket</string>
+    <string name="what_kind_of_exercise">Milyen gyakorlat?</string>
+    <string name="static_kind_exercise">Statikus</string>
+    <string name="weight_kind_exercise">Súlyzós</string>
+    <string name="hand_kind_exercise">Egy kezes</string>
+
+    <!-- Kategóriák -->
+    <string name="give_category_name">Add meg a kategória nevét*</string>
+    <string name="select_exercises_category">Gyakorlatok hozzáadása/törlése</string>
+    <string name="selected_exercises">Választott gyakorlatok</string>
+
+    <!-- Eszközök -->
+    <string name="give_tool_name">Add meg az eszköz nevét*</string>
+    <string name="select_exercises_tool">Gyakorlatok hozzáadása/törlése</string>
+
+    <!-- Helyek -->
+    <string name="give_place_name">Add meg a helyszín nevét*</string>
+    <string name="select_tools_place">Eszközök hozzáadása/törlése</string>
+    <string name="selected_tools">Választott eszközök</string>
+
+    <!-- Terv részletei -->
+    <string name="plan_details_toolbar">Terv részletei</string>
+
+
+    <!-- Tervek - Első fázis -->
+    <string name="give_plan_name">Add meg a terv nevét*</string>
+    <string name="select_place_plan">Válassz helyszínt</string>
+    <string name="select_category_plan">Válassz kategóriát</string>
+    <string name="select_muscles_plan">Válassz izomcsoportot</string>
+    <string name="plan_type_title">Terv típusa</string>
+    <string name="plan_type_zero">Intervallumos terv</string>
+    <string name="plan_type_one">Ismétléses terv</string>
+
+    <!-- Tervek - Harmadik fázis -->
+    <string name="plan_name_title">Terv neve:</string>
+    <string name="plan_name_value">-</string>
+    <string name="plan_place_title">Helyszín:</string>
+    <string name="plan_place_value">-</string>
+    <string name="plan_category_title">Kategória: </string>
+    <string name="plan_category_value">-</string>
+    <string name="plan_note_hint">Megjegyzés…</string>
+
+    <!-- Adapterek -->
+    <string name="adapter_item_name">Megjelenítendő név</string>
+    <string name="adapter_shown_thing">-</string>
+    <string name="connection_sign">Kapcsolatok</string>
+
+    <string name="weight_title">kg</string>
+    <string name="repeat_title">db</string>
+    <string name="select_exercise_type_plan">Válassz gyakorlat típust</string>
+
+
+</resources>
